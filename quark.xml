@@ -3,10 +3,12 @@
 
   <remote  name="neporood"
            fetch="https://github.com/neporood" />
+  
+  <remote  name="bhb27"
+           fetch="https://github.com/bhb27" />
 
 <!-- Add Device & Vendor -->
   <project path="device/motorola/quark" name="device_motorola_quark" remote="neporood" revision="bliss6" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="neporood" revision="RR-M" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="bhb27" revision="RR-M" />
 
 </manifest>
-
