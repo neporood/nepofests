@@ -6,6 +6,9 @@
   
   <remote  name="bhb27"
            fetch="https://github.com/bhb27" />
+           
+  <remote  name="bucket"
+           fetch="https://bitbucket.org" />
 
 <!-- Remove Projects -->
   <remove-project name="CandyDevices/packages_apps_KernelAdiutor" />
