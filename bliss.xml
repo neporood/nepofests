@@ -9,10 +9,15 @@
 
 <!-- Add Device & Vendor -->
   <project path="device/motorola/quark" name="device_motorola_quark" remote="neporood" revision="bliss6" />
-<!--  <project path="device/qcom/common" name="device_qcom_common" remote="neporood" revision="mm6.0" /> -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="neporood" revision="mm6.0" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="bhb27" revision="RR-M" />
   
 <!-- Add Kernel -->
-<!--  <project path="kernel/motorola/apq8084" name="android_kernel_motorola_apq8084" remote="neporood" revision="cm-13.0" /> -->
+  <project path="kernel/motorola/apq8084" name="android_kernel_motorola_apq8084" remote="neporood" revision="cm-13.0" />
+  
+<!-- Remove Projects -->
+  <remove-project name="xanaxdroid/arm-linux-androideabi-6.1" />
+  <remove-project name="xanaxdroid/aarch64-6.1" />
+  <remove-project name="xanaxdroid/aarch64-linux-android-6.1" />
 
 </manifest>
