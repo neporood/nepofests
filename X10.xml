@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="neporood"
+           fetch="https://github.com/neporood" />
+  
+<!-- Add Device & Vendor -->
+  <project path="device/TabletExpress/X10" name="device_TabletExpress_X10" remote="neporood" revision="bliss6" />
+  <project path="vendor/TabletExpress/X10" name="vendor_TabletExpress_X10" remote="neporood" />
+  
+</manifest>
