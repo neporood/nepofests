@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="neporood"
+           fetch="https://github.com/neporood" />
+           
+  <remote  name="bhb27"
+           fetch="https://github.com/bhb27" />
+           
+  <remote  name="bucket"
+           fetch="https://bitbucket.org" />
+
+<!-- Devices, Vendor and Kernel -->
+  <project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="du-6" />
+  <!-- <project path="device/qcom/common" name="device_qcom_common" remote="neporood" revision="mm6.0" /> -->
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="neporood" revision="bliss6" />
+  <project path="kernel/motorola/apq8084" name="BHB27Kernel" remote="bhb27" revision="cm-13.0" />
+
+<!-- Setup Custom Toolchain for Kernel -->
+  <project clone-depth="1" groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8.4" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="UBERTC/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bucket" revision="master" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bucket" revision="master" />
+
+</manifest>
