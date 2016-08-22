@@ -5,13 +5,8 @@
            fetch="https://github.com/neporood" />
 
 <!-- Add Quark Device -->
-  <project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="bliss6" />
+  <project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="aicp" />
 
-<!-- Add X10 Device and Vendor -->
-  <project path="device/TabletExpress/X10" name="device_TabletExpress_X10" remote="neporood" revision="bliss6" />
-  <project path="vendor/TabletExpress/X10" name="vendor_TabletExpress_X10" remote="neporood" />
-
-  
 <!-- Remove Projects -->
   <remove-project name="xanaxdroid/arm-linux-androideabi-6.1" />
   <remove-project name="xanaxdroid/aarch64-6.1" />
