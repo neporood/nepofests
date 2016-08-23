@@ -7,11 +7,7 @@
 <!-- Add Quark Device -->
   <project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="aicp" />
 
-<!-- Remove Projects -->
-  <remove-project name="xanaxdroid/arm-linux-androideabi-6.1" />
-  <remove-project name="xanaxdroid/aarch64-6.1" />
-  <remove-project name="xanaxdroid/aarch64-linux-android-6.1" />
-  
+
 <!-- Remove Packages -->
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
   <remove-project name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
