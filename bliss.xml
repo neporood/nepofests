@@ -73,6 +73,8 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" />
   <remove-project name="platform/prebuilts/gdb/darwin-x86" groups="darwin" />
   <remove-project name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" />
-  <!-- still more to remove -->
+  <remove-project name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/prebuilts/ninja/darwin-x86" groups="darwin,pdk,tradefed" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   
 </manifest>
