@@ -66,9 +66,6 @@
   <remove-project name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
   <remove-project name="platform/hardware/intel/common/utils" groups="intel" />
   <remove-project name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <remove-project name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <remove-project name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <remove-project name="platform/hardware/intel/img/psb_video" groups="intel" />
   <remove-project name="platform/hardware/intel/sensors" groups="intel_sensors" />
 <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
@@ -96,8 +93,6 @@
   <remove-project name="xanaxdroid/aarch64-5.3" remote="bitbucket" revision="sabermod" />
   <remove-project name="xanaxdroid/aarch64-6.1" remote="bitbucket" revision="sabermod" />
   <remove-project name="xanaxdroid/aarch64-7.0" remote="bitbucket" revision="sabermod" />
-  <remove-project name="hyper-toolchains/arm-eabi-6.x" remote="bitbucket" revision="LxSM" />
-  <remove-project name="hyper-toolchains/arm-eabi-6.x" remote="bitbucket" revision="UxSM" />
   <remove-project name="hyper-toolchains/arm-linux-androideabi-5.x" remote="bitbucket" revision="LxSM" />
   <remove-project name="hyper-toolchains/arm-linux-androideabi-5.x" remote="bitbucket" revision="UxSM" />
   <remove-project name="xanaxdroid/aarch64-linux-android-5.3" remote="bitbucket" revision="linaro" />
