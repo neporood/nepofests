@@ -9,7 +9,7 @@
 
 <!-- Add X10 Device and Vendor -->
   <project path="device/TabletExpress/X10" name="device_TabletExpress_X10" remote="neporood" revision="bliss6" />
-  <project path="vendor/TabletExpress/X10" name="vendor_TabletExpress_X10" remote="neporood" />
+<!--  <project path="vendor/TabletExpress/X10" name="vendor_TabletExpress_X10" remote="neporood" revision="master" /> -->
 
 <!-- Remove from CM -->
 <!-- Devices -->
