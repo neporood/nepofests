@@ -5,7 +5,7 @@
            fetch="https://github.com/neporood" />
 
 <!-- Add Quark Device -->
-  <project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="bliss6" />
+  <project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="bliss7" />
 
 <!-- Remove Unwanted CM Packages -->
 <!--  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
@@ -25,6 +25,12 @@
 
 <!-- Remove from AOSP -->
 <!-- Devices -->
+  <remove-project name="device/generic/arm64" groups="pdk" />
+  <remove-project name="device/generic/armv7-a-neon" groups="pdk" />
+  <remove-project name="device/generic/common" groups="pdk" />
+  <remove-project name="device/generic/goldfish" groups="pdk" />
+  <remove-project name="device/generic/mips" groups="pdk" />
+  <remove-project name="device/generic/mips64" groups="pdk" />
   <remove-project name="device/generic/mini-emulator-arm64" groups="pdk" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <remove-project name="device/generic/mini-emulator-mips" groups="pdk" />
