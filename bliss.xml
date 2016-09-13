@@ -4,8 +4,11 @@
   <remote  name="neporood"
            fetch="https://github.com/neporood" />
 
-<!-- Add Quark Device -->
+<!-- Add Quark Device and Toolchains -->
   <project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="bliss7" />
+  <project name="UBERTC/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
+  <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
 
 <!-- Remove Unwanted CM Packages -->
 <!--  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
