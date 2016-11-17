@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="neporood"
+           fetch="https://github.com/neporood" />
+
+  <remote name="bhb"
+          fetch="https://github.com/bhb27" />
+
+<!-- Add Devices Stuff -->
+<!--<project path="device/motorola/quark" name="android_device_motorola_quark" remote="neporood" revision="aokp7" /> -->
+<project path="device/motorola/quark" name="device_motorola_quark" remote="bhb" revision="CR-N" />
+<project path="kernel/motorola/apq8084" name="BHB27Kernel" remote="bhb" revision="cm-14.0" />
+<project path="vendor/motorola" name="proprietary_vendor_motorola" remote="neporood" revision="bliss6" />
+<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-14.1" />
+
+<!--system/core derped, use CM -->
+<remove-project name="AOKP/system_core" />
+<project path="system/core" name="CyanogenMod/android_system_core" revision="cm-14.1" />
+
+<!-- Remove Projects from Default -->
+<!-- Devices -->
+<remove-project name="device/generic/arm64" />
+<remove-project name="device/generic/armv7-a-neon" />
+<remove-project name="device/generic/common" />
+<remove-project name="device/generic/goldfish" />
+<remove-project name="device/generic/mini-emulator-arm64" />
+<remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+<remove-project name="device/generic/mini-emulator-x86" />
+<remove-project name="device/generic/mini-emulator-x86_64" />
+<remove-project name="device/generic/qemu" />
+<remove-project name="device/generic/x86" />
+<remove-project name="device/generic/x86_64" />
+<remove-project name="device/google/atv" />
+<remove-project name="device/sample" />
+<!-- Packages -->
+<remove-project name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
+<remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
+<remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
+<remove-project name="CyanogenMod/android_packages_apps_Stk" />
+<!-- Prebuilts -->
+<remove-project name="platform/prebuilts/android-emulator" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+<remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+<remove-project name="platform/prebuilts/eclipse" />
+<remove-project name="platform/prebuilts/eclipse-build-deps" />
+<remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+<remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+<remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+<remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+<remove-project name="platform/prebuilts/gdb/darwin-x86" />
+<remove-project name="platform/prebuilts/go/darwin-x86" />
+<remove-project name="platform/prebuilts/gradle-plugin" />
+<remove-project name="platform/prebuilts/ninja/darwin-x86" />
+<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+<!-- End Default -->
+
+<!-- Remove Projects from Snippets -->
+<!-- Packages -->
+<remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+<remove-project name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
+<remove-project name="CyanogenMod/android_packages_apps_Eleven" />
+<remove-project name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
+<remove-project name="CyanogenMod/android_packages_apps_Snap" />
+<remove-project name="CyanogenMod/android_packages_themes_HexoLibre" />
+
+</manifest>
